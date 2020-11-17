@@ -1,0 +1,19 @@
+package be.Intecbrussel;
+
+public class RealCustomer extends AbstractCustomer{
+    private String name;
+
+    public RealCustomer(String name){
+        this.name = name;
+    }
+
+    @Override
+    public boolean isNil() {
+        return false;
+    }
+
+    @Override
+    public String getName() {
+        return "Customer Database name: " + '"' +this.name + '"' ;
+    }
+}
