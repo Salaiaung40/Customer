@@ -1,5 +1,5 @@
 package be.Intecbrussel;
-
+//Step 1
 abstract class AbstractCustomer {
     protected String name;
 

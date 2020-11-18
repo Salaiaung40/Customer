@@ -1,5 +1,5 @@
 package be.Intecbrussel;
-
+//Step 5
 public class NullPatternDemo {
 
     public static void main(String[] args) {

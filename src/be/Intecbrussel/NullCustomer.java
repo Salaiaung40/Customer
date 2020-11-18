@@ -1,5 +1,5 @@
 package be.Intecbrussel;
-
+//Step 3
 public class NullCustomer extends AbstractCustomer {
     @Override
     public boolean isNil() {
